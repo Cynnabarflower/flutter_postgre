@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\USER\AndroidStudioProjects\flutter_postgre\build\windows\CMakeFiles\f965501cfb4c0beaf319bf03b6fec537\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0AB47279-9579-3CB1-98C3-2C7AAB3484FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

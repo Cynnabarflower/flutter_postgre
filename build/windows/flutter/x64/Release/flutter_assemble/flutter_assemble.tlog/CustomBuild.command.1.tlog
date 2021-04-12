@@ -1,0 +1,28 @@
+^C:\USERS\USER\ANDROIDSTUDIOPROJECTS\FLUTTER_POSTGRE\BUILD\WINDOWS\CMAKEFILES\60421DC08B64E7C006EC86116B795C09\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\USER\flutter PROJECT_DIR=C:\Users\USER\AndroidStudioProjects\flutter_postgre FLUTTER_ROOT=C:\Users\USER\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\USER\AndroidStudioProjects\flutter_postgre\windows\flutter\ephemeral PROJECT_DIR=C:\Users\USER\AndroidStudioProjects\flutter_postgre FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=C:\Users\USER\AndroidStudioProjects\flutter_postgre\.dart_tool\package_config.json C:/Users/USER/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\ANDROIDSTUDIOPROJECTS\FLUTTER_POSTGRE\BUILD\WINDOWS\CMAKEFILES\F965501CFB4C0BEAF319BF03B6FEC537\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\ANDROIDSTUDIOPROJECTS\FLUTTER_POSTGRE\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/AndroidStudioProjects/flutter_postgre/windows -BC:/Users/USER/AndroidStudioProjects/flutter_postgre/build/windows --check-stamp-file C:/Users/USER/AndroidStudioProjects/flutter_postgre/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
